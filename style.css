@@ -67,7 +67,7 @@ width: 100%;
 }
 #parallax-container {
   display: block;
-  height: 800px;
+  height: 1200px;
 }
 
 #parallax-container div {
@@ -75,7 +75,7 @@ width: 100%;
   top: 0;
   background-position: center !important;
   transform: translateY(0px);
-  height: 800px;
+  height: 1200px;
   width: 100%;
   background-repeat: no-repeat;
 }
