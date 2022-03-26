@@ -1,0 +1,170 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+background-color: #010424;
+}
+
+
+.navbar {
+  background: #131313;
+  height: 55px;
+  display: flex;
+position: fixed;
+width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  z-index: 999;
+  width: 100%;
+ margin: 0 auto;
+}
+
+#navbar-logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-left: 15px;
+}
+
+
+
+.navbar-item {
+  height: 55px;
+  display:inline-block;
+  
+}
+
+.navbar-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  text-decoration: none;
+  height: 100%;
+  transition: all 0.3s ease;
+  opacity: 0.75;
+}
+
+.navbar-links:hover{
+  opacity: 1;
+}
+
+.navbar-links:active{
+  opacity: 1;
+}
+#parallax-container {
+  display: block;
+  height: 800px;
+}
+
+#parallax-container div {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+#one {
+  position: relative;
+  background-color: #010424;
+  color: #ffffff;
+  padding: 100px;
+  height: 100vh;
+
+}
+
+#one h1{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+  }
+
+#one p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  
+  justify-content: center;
+  }
+
+
+#two {
+  position: relative;
+  background-color: rgb(25, 36, 87);
+  color: #fff;
+  padding: 250px;
+  height: 100vh;
+}
+
+.text p{
+  align-items: center;
+    font-size: 40px;
+  }
+
+  .container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 68%;
+border-radius: 50%;
+  }
+
+  .image {
+    flex-basis: 60%;
+  }
+
+  .text {
+   padding-left: 10px;
+padding-right: 18px
+  }
+
+  
+#three {
+  position: relative;
+  background-color: #010424;
+  color: #ffffff;
+  padding: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#three h2{
+  font-size: 50px;
+        }
+#instagram{
+  height: 100px;
+  width: 100px;
+}
+
+#youtube{
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+}
+
